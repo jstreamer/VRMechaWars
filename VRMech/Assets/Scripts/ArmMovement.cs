@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[ExecuteInEditMode]
-public class Armmovement : MonoBehaviour {
 
+public class ArmMovement : MonoBehaviour {
+
+    public GameObject RobotHandAnchor;
     Vector3 ManipulatorPrevPosition;
-    GameObject RobotHandAnchor;
+    
 	// Use this for initialization
 	void Start () {
-        RobotHandAnchor = GameObject.Find("RobotFistTK");
         ManipulatorPrevPosition = transform.position;
 	}
 	
