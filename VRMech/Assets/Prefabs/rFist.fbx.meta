@@ -5,8 +5,10 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Mesh1
     100002: //RootNode
+    100004: Group1
     400000: Mesh1
     400002: //RootNode
+    400004: Group1
     2100000: FrontColor
     2300000: Mesh1
     3300000: Mesh1
