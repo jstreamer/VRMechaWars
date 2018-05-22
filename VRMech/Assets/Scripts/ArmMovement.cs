@@ -19,7 +19,8 @@ public class ArmMovement : MonoBehaviour {
         Vector3 current = transform.position;
         Vector3 delta = current - ManipulatorPrevPosition;
         ManipulatorPrevPosition = current;
-        RobotHandAnchor.transform.position = RobotHandAnchor.transform.position + delta * 10;
+        RobotHandAnchor.transform.rotation = transform.rotation;
+        RobotHandAnchor.transform.position = RobotHandAnchor.transform.position + delta * 30;
 
     }
 }
